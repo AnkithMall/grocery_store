@@ -1,0 +1,96 @@
+
+body {
+	margin: 0;
+}
+.content {
+	position:relative ;
+	top:25px ;
+
+}
+header {
+	background-color:#0b007e ;
+	text-align:center;
+	padding: 6px;
+  	border: none;
+  	margin: auto;
+  	font-size: 40px;
+  	color:white ;	
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.nav li {
+	float: left;
+}
+
+ul.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.nav li a:hover:not(.active) {
+	background-color: #111;
+}
+
+ul.nav li a.active {
+	background-color: #04AA6D;
+}
+a {
+	cursor:pointer;
+}
+.search input[type=text] {
+  
+  float: right;
+  
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  ul.nav li , .search input[type=text] {
+  	float: none;
+  }
+   .search input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+.Home {
+	position:relative ;
+	top:15px ;
+}
+
+.add {
+	width:400px;
+	height:500px;
+	position:relative;
+	left:50%;
+	border:2px solid black;
+	
+}
+.add button[type=submit] {
+	width:100px;
+	height:50px;
+	background:blue;
+	color:white;
+}
+
+
+
+
+
+
+
+

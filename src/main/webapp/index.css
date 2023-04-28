@@ -1,0 +1,143 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif ;
+}
+ header {
+	background-color:#0b007e ;
+	text-align:center;
+	padding: 6px;
+  	border: none;
+  	margin: auto;
+  	font-size: 40px;
+  	color:white ;	
+}
+/*body{
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0, 0, 0, .5),url(background-image.jpg));
+
+    background-position: center;
+    background-size: cover;
+    //background: url(background-image.jpg) no-repeat center fixed;
+    
+}*/
+html {
+    background-image: url(background-image.jpg); 
+    background-position: center;
+     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,.2);
+  }
+ 
+.box{    
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 5px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px 9px #241f3112;
+}
+/*.box{
+    position: relative;
+    top: 100px;
+    width: 350px;
+    height: 400px;
+    margin: auto;
+
+    padding: auto;
+    background-color: white;
+
+}*/
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px rgb(12, 18, 221);
+    border-radius: 30px;    
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-size: 15px;
+}
+#btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 112px;
+    height: 38px;
+    background: linear-gradient(to right,#201dfd,#ff04c9);
+    border-radius: 30px;
+    transition: .8s ease;
+    
+}
+.input-form{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transform: .5s;
+}
+.input{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+}
+.login{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#201dfd,#ff04c9);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-size: 20px;
+}
+#login{
+    left: 50px;
+
+}
+#register{
+    left: 450px;
+    
+}
+input:focus{
+    border : 2px solid rgb(11, 0, 126) ;
+    border-radius: 10px;
+}
+
+#cat{
+	width: 40%;
+    padding: 7px 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border: 0;
+   
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+#msg {
+	position:relative ;
+	top:270px ;
+	left:50px ;
+	color:red ;
+}
+
